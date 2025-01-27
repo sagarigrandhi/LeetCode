@@ -4,7 +4,4 @@ class Solution:
         for i in range(len(nums) - 1):
             if nums_sorted[i] == nums_sorted[i+1]:
                 return True
-        return False
-
-
-        
+        return False        
