@@ -8,4 +8,3 @@ class Solution:
                 min2 = p
         change = money - min1 - min2
         return change if change >= 0 else money
-        
