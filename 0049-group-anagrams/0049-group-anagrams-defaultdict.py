@@ -7,4 +7,3 @@ class Solution:
                 count[ord(char) - ord('a')] += 1
             groups[tuple(count)].append(word)
         return groups.values()
-        
