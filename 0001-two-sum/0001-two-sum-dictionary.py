@@ -7,4 +7,3 @@ class Solution:
             else:
                 second = target - nums[i]
                 nums_dict[second] = i
-        
