@@ -7,4 +7,3 @@ class Solution:
             valid[ord(s[i]) -  ord('a')] += 1
             valid[ord(t[i]) - ord('a')] -= 1
         return all([count == 0 for count in valid])
-        
