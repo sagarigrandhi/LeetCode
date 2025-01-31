@@ -11,5 +11,3 @@ class Solution:
         for j in range(n):
             answer.append(prefix[j] * suffix[j])
         return answer
-
-        
