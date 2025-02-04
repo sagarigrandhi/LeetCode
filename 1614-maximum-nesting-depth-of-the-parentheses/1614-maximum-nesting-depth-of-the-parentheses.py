@@ -5,8 +5,7 @@ class Solution:
         for c in s:
             if c == '(':
                 count += 1
-                max_depth = max(count, max_depth)
             if c == ')':
                 count -= 1
+            max_depth = max(count, max_depth)
         return max_depth
-        
